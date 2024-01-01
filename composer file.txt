@@ -1,0 +1,11 @@
+# in HTML folder
+# Create uploads folder in html path
+# Set permissions 777 to uploads folder
+# when you are in conatiner do not use sudo so remove them as you apply.
+
+sudo mkdir uploads
+sudo chmod 777 uploads
+sudo curl -sS https://getcomposer.org/installer | sudo php
+sudo mv composer.phar /usr/local/bin/composer
+sudo ln -s /usr/local/bin/composer /usr/bin/composer
+sudo composer require aws/aws-sdk-php
