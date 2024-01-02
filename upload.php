@@ -6,8 +6,8 @@ $s3Client = new S3Client([
 'version' => 'latest',
 'region'  => 'ap-south-1',                //Add your bucket region here
 'credentials' => [
-'key'    => 'AKIAR7MIJYJCCHJKKPXO',     //Add your access key here
-'secret' => 'dFBNdJhfH1QKq8xDldJRK5KRAUHhiykAovU7+oRG'  //Add your secret key here
+'key'    => '**********',     //Add your access key here
+'secret' => '**************'  //Add your secret key here
 ]
 ]);
 // Check if the form was submitted
